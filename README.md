@@ -36,7 +36,7 @@
 
 ### 2. 회원가입 및 로그인 페이지
 ![signupPage](README_img/signuppage.png)
-![loginPage](README_img/loginpage.png)
+![loginPage](README_img/loginpage.PNG)
 
 ### 3. 영화 추천 페이지
 - 사용자가 좋아요를 해놓은 배우 기준으로 해당 배우의 출연작을 추천
