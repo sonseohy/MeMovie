@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Folder Icon</title>
+  <style>
+    /* 폴더 전체 컨테이너 */
+    .folder {
+      position: relative; /* 상단과 본체를 상대적으로 배치 */
+      width: 100px; /* 본체의 너비 설정 */
+      margin: 50px auto; /* 가운데 정렬을 위한 여백 */
+    }
+
+    /* 폴더 상단 부분 */
+    .folder-top {
+      width: calc(100px / 4); /* 본체 너비의 1/5 */
+      height: 10px;
+      background-color: #f0c040;
+      border-radius: 5px 5px 0 0;
+      position: absolute; /* 위치를 자유롭게 설정 */
+      top: -10px; /* 폴더 본체 위로 이동 */
+      right: 0; /* 본체 오른쪽에 붙임 */
+    }
+
+    /* 폴더 본체 부분 */
+    .folder-body {
+      width: 100px;
+      height: 60px;
+      background-color: #f0c040;
+      border-radius: 5px 0 5px 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="folder">
+    <div class="folder-top"></div>
+    <div class="folder-body"></div>
+  </div>
+</body>
+</html>
