@@ -32,11 +32,11 @@
 
 ## 주요 기능
 ### 1. 메인 페이지
-![mainPage](README_img/mainpage.PNG)
+![mainPage](README_img/mainpage.png)
 
 ### 2. 회원가입 및 로그인 페이지
-![signupPage](README_img/signuppage.PNG)
-![loginPage](README_img/loginpage.PNG)
+![signupPage](README_img/signuppage.png)
+![loginPage](README_img/loginpage.png)
 
 ### 3. 영화 추천 페이지
 - 사용자가 좋아요를 해놓은 배우 기준으로 해당 배우의 출연작을 추천
